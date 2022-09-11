@@ -16,10 +16,6 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
-}
-
-h2 {
   font-size: 48px;
 }
 
@@ -103,4 +99,41 @@ p {
 .purple-btn-bg:hover {
   background: var(--primary-color);
   color: #0d6efd;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 100%;
+  }
+
+  body,
+  p,
+  .white-bg {
+    text-align: center;
+  }
+
+  .hp-img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .navigation-links {
+    margin-top: 20px;
+  }
+
+  .mobile-p-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
